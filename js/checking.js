@@ -13,6 +13,7 @@ $(document).ready(function(){
                        localStorage.removeItem('pass');
                        localStorage.setItem('pass', JSON.stringify("donat"));
                        window.open('/password')
+                       alert('пароль введён не верно!');
                      }
                    }
                  });
