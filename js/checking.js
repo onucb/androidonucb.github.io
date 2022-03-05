@@ -10,7 +10,7 @@ $(document).ready(function(){
                        localStorage.setItem('pass', JSON.stringify(hash.acthash));
                        window.open('/search')
                      } else {
-                       <script>alert('пароль введён не верно!');</script>
+                       alert('пароль введён не верно!');
                        localStorage.removeItem('pass');
                        localStorage.setItem('pass', JSON.stringify("donat"));
                        window.open('/password')
