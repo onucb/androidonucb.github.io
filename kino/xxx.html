@@ -142,7 +142,7 @@ if ('serviceWorker' in navigator) {
 		<a onclick="selectTorrents();" id="torrents"> 3️⃣ Плеер №3 </a>
 	</div>
 	<div id="containers" style="position: relative; margin: 5px;">
-		<iframe id="iframe" style="border:0px; width: 75%; height: 75vmin;" src="/kinoplay/assets/loading.webp"></iframe>
+		<iframe id="iframe" style="border:0px; width: 100%; height: 75vmin;" src="/kinoplay/assets/loading.webp"></iframe>
 	</div>
 	<script>
 	var searchString = new URLSearchParams(window.location.search);
@@ -239,7 +239,7 @@ if ('serviceWorker' in navigator) {
 		const players = document.getElementById('players');
 		const sp1 = document.getElementById('sp1');
 		const sp2 = document.getElementById('sp2');
-		iframe.src = "/kinoplay/assets/loading.webp";
+	
 
 		///containers.innerHTML = '<iframe id="iframe" style="border:0px; width: 100%; height: 70vmin;" src="/xxx.html#'+id+'"></iframe>';
 		/**
